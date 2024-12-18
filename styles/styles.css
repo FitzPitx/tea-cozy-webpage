@@ -198,6 +198,19 @@ main section.location-container .location-text {
 
 /* Footer */
 
+.footer-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 20px auto;
+  height: 200px;
+  justify-content: space-around;
+}
+
+#footer-copy {
+  text-align: left;
+  margin: 20px;
+}
+
 
 /* Global Styles */
 .m-1 {
